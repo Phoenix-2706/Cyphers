@@ -44,7 +44,7 @@ if __name__ =='__main__':
         decrypted_message=input("Enter the message to be decrypted:\t")
         decryption(decrypted_message)
     else:
-        print("Please enter the correctly")
+        print("Please enter the letter correctly")
 
 '''To make this code more interesting, we can add a time.sleep() and make the users
 wait for the reveal'''
