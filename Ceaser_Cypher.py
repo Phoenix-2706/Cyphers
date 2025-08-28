@@ -31,6 +31,8 @@ def decryption(message):
         print("Decrypted message using key%s:\t%s"%(key,final_message))
         
     
+'''Below block is made so that the upper cypher functions can be used independently  
+in other codes'''
 
 if __name__ =='__main__':
     mode=input("(e) for encryption : (d) for decryption -->\t")
@@ -43,3 +45,6 @@ if __name__ =='__main__':
         decryption(decrypted_message)
     else:
         print("Please enter the correctly")
+
+'''To make this code more interesting, we can add a time.sleep() and make the users
+wait for the reveal'''
